@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Run this script on training server:
-#   ssh -p 2222 <user>@<train-server>
+#   ssh <user>@<train-server>
 #   cd /home/vlm_train/qwen3_vl_tsr
 #   bash eval/presets/eval_e15.sh
 

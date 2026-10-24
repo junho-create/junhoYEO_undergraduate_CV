@@ -152,8 +152,8 @@ class DocumentProcessor:
             # Mistral-Small-3.1-24B-Instruct-2503, 운영망
             toc_api_base_url="https://<serving-gateway>/v1/chat/completions",
             metadata_api_base_url="https://<serving-gateway>/v1/chat/completions",
-            toc_api_key="REMOVED_API_KEY",
-            metadata_api_key="REMOVED_API_KEY",
+            toc_api_key=os.getenv("SERVING_API_KEY", ""),
+            metadata_api_key=os.getenv("SERVING_API_KEY", ""),
 
             toc_model="model",
             metadata_model="model",

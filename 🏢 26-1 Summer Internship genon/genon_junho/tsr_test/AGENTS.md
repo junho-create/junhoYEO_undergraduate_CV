@@ -18,7 +18,7 @@
 - Detailed record: `train/vlm/docs/EVAL_TEST_SESSION_SUMMARY_20260220.md`.
 
 ### Key Reusable Facts
-- Training server: `ssh -p 2222 <user>@<train-server>`
+- Training server: `ssh <user>@<train-server>`
 - Serving server: `ssh <user>@<serving-server>`
 - External serving endpoint: `http://localhost:8010` (container maps `8010:8000`)
 - Active evaluated model alias: `e6ckpt600`

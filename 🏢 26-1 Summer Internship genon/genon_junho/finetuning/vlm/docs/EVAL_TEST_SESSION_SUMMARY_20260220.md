@@ -7,7 +7,7 @@
 
 ## 2) 환경/서버 정보
 
-- 학습 서버: `ssh -p 2222 <user>@<train-server>`
+- 학습 서버: `ssh <user>@<train-server>`
 - 서빙 서버: `ssh <user>@<serving-server>`
 - 서빙 접근 포트(외부): `http://localhost:8010`
 - vLLM OpenAI-compatible endpoint:

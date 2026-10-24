@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Run this script on training server:
-#   ssh -p 2222 <user>@<train-server>
+#   ssh <user>@<train-server>
 #   cd /home/workspace/tsr_test/genos/doc_parser/train/vlm
 #   bash eval/presets/eval_20260409_vsgrpo_v6_nested.sh
 

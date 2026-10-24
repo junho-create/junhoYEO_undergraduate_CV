@@ -274,7 +274,7 @@ bash eval/run_eval.sh \
 ## 10. 전체 실행 순서 요약
 
 ```bash
-# 서버: ssh -p 2222 <user>@<train-server>
+# 서버: ssh <user>@<train-server>
 cd /home/vlm_train/qwen3_vl_tsr
 
 # Phase 0: 데이터 준비 (수 시간)
